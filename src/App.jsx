@@ -1,15 +1,21 @@
-import React, { useState } from "react";
+import React from "react";
 import NavBar from "./components/NavBar";
 import Content from "./components/content/Content";
+import Footer from "./components/content/Footer"
+import { BrowserRouter } from "react-router-dom";
 
+// Main application component
 function App() {
-  //a variable to store what to show in the content component
-  const [content, setContent] = useState([]);
-  let x;
   return (
     <div>
-      <NavBar setContent={setContent} />
-      <Content content={content} />
+      {/* BrowserRouter wraps the application to enable routing */}
+      <BrowserRouter>
+        {/* NavBar component */}
+        <NavBar />
+        {/* Content component */}
+        <Content />
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }
