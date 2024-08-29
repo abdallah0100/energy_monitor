@@ -1,8 +1,23 @@
-# React + Vite
+# Energy Consumption Monitor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ is a web-based application that provides real-time monitoring and visualization of energy consumption data. It offers an intuitive interface to track and analyze energy usage trends, helping users make informed decisions to optimize energy efficiency. The application is built with modern web technologies and is hosted at <a href="https://energy-monitor-psi.vercel.app/">Energy Monitor</a>.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/abdallah0100/energy_monitor.git
+    cd energy_monitor
+    ```
+
+2. Install dependencies:
+    ```sh
+    npm install
+    ```
+
+## Running
+
+To run with Vite development server:
+```sh
+npm run dev
+```
